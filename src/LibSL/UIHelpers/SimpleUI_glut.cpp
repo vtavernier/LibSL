@@ -223,6 +223,7 @@ void NAMESPACE::init(uint width,uint height,const char *title,char **argv,int ar
   glutInitContextFlags(GLUT_FORWARD_COMPATIBLE);
   glutInitContextProfile(GLUT_CORE_PROFILE);
 #endif
+  glutInitContextFlags(GLUT_DEBUG);
 
   glutInitDisplayMode   (GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGBA | GLUT_STENCIL | GLUT_ALPHA);
   glutInitWindowPosition(0,0);
